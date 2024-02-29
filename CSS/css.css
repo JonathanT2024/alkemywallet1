@@ -1,0 +1,13 @@
+/* Paso 4: Estilos de la Tabla */
+.table {
+    margin-top: 20px;
+}
+
+.fondo{
+    background-image: url('../IMG/e-wallet-cards.png');
+    background-size: cover; /* Para cubrir toda la pantalla */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Puedes agregar más estilos según tus preferencias */

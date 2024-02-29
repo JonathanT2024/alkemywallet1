@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallet - Enviar Dinero</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<header>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <div class="container-fluid">
+                      <img src="../IMG/logo1.png" class="" alt="" style="width: 65px; height: 65px;">
+                      <a class="navbar-brand" href="./menu.html">MENU</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                          aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarText">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="./menu.html">Menu</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="./deposito.html">depósito</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="./sendmoney.html">sendmoney</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="./transaction.html">transactions</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">CONFIGURACION</a>
+                              </li>
+                          </ul>
+                          <span class="navbar-text">
+                             Tu billetera
+                          </span>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+
+      </div>
+  </div>
+</header>
+
+<body>
+  <div class="container">
+    <h2>Enviar Dinero</h2>
+    <form>
+      <div class="form-group">
+        <label for="searchContact">Buscar en la agenda de transferencias:</label>
+        <input type="text" class="form-control" id="searchContact" placeholder="Search contact">
+      </div>
+      <button type="submit" class="btn btn-primary">Agregar nuevo contacto</button>
+ <h3>Contactos</h3>
+  <ul id="contactList" class="list-group">
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">John Doe</span>
+        <span class="contact-details">CBU: 123456789, Alias: john.doe, Banco: ABC Bank</span>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">Jane Smith</span>
+        <span class="contact-details">CBU: 987654321, Alias: jane.smith, Banco: XYZ Bank</span>
+      </div>
+    </li>
+      <button type="submit" class="btn btn-primary">Enviar dinero</button>
+    </form>
+    <a href="menu.html" class="btn btn-secondary">Volver al Menú Principal</a>
+  </div>
+</body>
+</html>
